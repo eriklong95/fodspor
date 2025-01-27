@@ -1,9 +1,9 @@
-package com.fodspor;
+package com.fodspor.report;
 
 import net.bytebuddy.asm.Advice;
 import net.bytebuddy.asm.Advice.OnMethodEnter;
 
-public class ReportAdvice {
+public class MethodReportAdvice {
 
     @OnMethodEnter
     public static void enter(@Advice.Origin final String origin) {
