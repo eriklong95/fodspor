@@ -12,7 +12,7 @@ import java.lang.instrument.Instrumentation;
 public class Agent {
 
     public static void premain(String agentOps, Instrumentation instrumentation) {
-        System.out.println("Hello from agent " + agentOps);
+        System.out.println("Hello from Agent!");
 
         var advice = Advice.to(ReportAdvice.class);
 

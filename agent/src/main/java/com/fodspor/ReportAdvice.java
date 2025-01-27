@@ -7,7 +7,7 @@ public class ReportAdvice {
 
     @OnMethodEnter
     public static void enter(@Advice.Origin final String origin) {
-        System.out.println("entered method " + origin);
+        System.out.println("agent: target entered method " + origin);
     }
 
 }
