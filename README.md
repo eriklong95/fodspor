@@ -4,7 +4,7 @@ Tracing the steps of a Java app
 
 ## How to
 
-Create a far JAR with
+Create a fat JAR with
 
 ```
 ./gradlew :agent:shadowJar
