@@ -1,9 +1,10 @@
 # fodspor
+
 Tracing the steps of a Java app
 
 ## How to
 
-Create a far JAR
+Create a far JAR with
 
 ```
 ./gradlew :agent:shadowJar

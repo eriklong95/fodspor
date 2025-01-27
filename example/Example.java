@@ -10,5 +10,9 @@ public class Example {
 
     static void methodOne() {}
 
-    static void methodTwo() {}
+    static void methodTwo() {
+        nestedMethod();
+    }
+
+    static void nestedMethod() {}
 }
