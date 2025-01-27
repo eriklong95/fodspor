@@ -39,3 +39,9 @@ tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+tasks.jar {
+    manifest {
+        attributes("Premain-Class" to "com.fodspor.Agent")
+    }
+}
